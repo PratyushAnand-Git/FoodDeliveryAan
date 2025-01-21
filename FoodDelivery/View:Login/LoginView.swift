@@ -34,7 +34,7 @@ struct LoginView: View {
                         
                     Text("Get your groceries in as fast as one hour")
                         .foregroundColor(.white.opacity(0.7))
-                        .padding(.bottom, 30)
+                        //.padding(.bottom, 30)
                         .multilineTextAlignment(.center)
                     
                     Button{
