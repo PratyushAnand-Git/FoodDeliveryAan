@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LoginView: View {
+struct WelcomeView: View {
     var body: some View {
         NavigationView{
             ZStack{
@@ -37,8 +37,8 @@ struct LoginView: View {
                         //.padding(.bottom, 30)
                         .multilineTextAlignment(.center)
                     
-                    Button{
-                        
+                    NavigationLink{
+                        SignInView()
                     }label: {
                         Text("Get Started")
                             .foregroundStyle(.white)
@@ -57,5 +57,5 @@ struct LoginView: View {
     }}
 
 #Preview {
-    LoginView()
+    WelcomeView()
 }

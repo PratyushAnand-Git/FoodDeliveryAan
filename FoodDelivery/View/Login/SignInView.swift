@@ -66,7 +66,7 @@ struct SignInView: View {
                                     .navigationBarTitleDisplayMode(.inline)
                             }
                         }
-                        iPhoneNumberField("Enter phone number", text: $txtphoneNumber)
+                        iPhoneNumberField("Enter phone number", text: $phoneNumber)
                             .flagHidden(true)
                             .flagSelectable(false)
                             .formatted(true)
@@ -84,7 +84,7 @@ struct SignInView: View {
                         LoginView()
                     } label  :{
                         Text("Continue with SignIn")
-                                .font(.customfont(semibold, fontSize: 18))
+                                .font(.customfont(.semibold, fontSize: 18))
                                 .foregroundColor(.white)
                                 .multilineTextAlignment(.center)
                                 .frame( minWidth: 0, maxWidth: .infinity, minHeight: 60,maxHeight:60 )
@@ -273,7 +273,7 @@ struct SignInView: View {
             VStack{
                 HStack{
                     NavigationLink{
-                        LoginView()
+                        WelcomeView()
                     } label: {
                         Image("back")
                             .resizable()

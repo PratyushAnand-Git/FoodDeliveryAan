@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3F12519D2D3FCA120041E677 /* CountryPicker in Frameworks */ = {isa = PBXBuildFile; productRef = 3F12519C2D3FCA120041E677 /* CountryPicker */; };
+		3F13ADF02D412299007C9DC2 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13ADEF2D412299007C9DC2 /* MainViewModel.swift */; };
+		3F13ADF22D41241B007C9DC2 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F13ADF12D41241B007C9DC2 /* UserModel.swift */; };
 		3F2732B92D2E9DF1006E4BAC /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732B52D2E9DF1006E4BAC /* Gilroy-Bold.ttf */; };
 		3F2732BA2D2E9DF1006E4BAC /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732B62D2E9DF1006E4BAC /* Gilroy-Regular.ttf */; };
 		3F2732BB2D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732B72D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf */; };
@@ -25,9 +27,10 @@
 		3F9A51432D3FD20600AC39C1 /* ServiceCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A51372D3FD20600AC39C1 /* ServiceCall.swift */; };
 		3F9A51442D3FD20600AC39C1 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A51382D3FD20600AC39C1 /* TabButton.swift */; };
 		3F9A51452D3FD20600AC39C1 /* UIExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A51392D3FD20600AC39C1 /* UIExtension.swift */; };
+		3F9A51472D3FDA8D00AC39C1 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A51462D3FDA8D00AC39C1 /* LoginView.swift */; };
 		3FC556652D3920B100AF4B13 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC556642D3920B100AF4B13 /* SignInView.swift */; };
 		3FDBE46F2D2D655F00D9EAF4 /* FoodDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE46E2D2D655F00D9EAF4 /* FoodDeliveryApp.swift */; };
-		3FDBE4712D2D655F00D9EAF4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE4702D2D655F00D9EAF4 /* LoginView.swift */; };
+		3FDBE4712D2D655F00D9EAF4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE4702D2D655F00D9EAF4 /* WelcomeView.swift */; };
 		3FDBE4732D2D656000D9EAF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBE4722D2D656000D9EAF4 /* Assets.xcassets */; };
 		3FDBE4762D2D656000D9EAF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBE4752D2D656000D9EAF4 /* Preview Assets.xcassets */; };
 		3FDBE48A2D2D656000D9EAF4 /* FoodDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE4892D2D656000D9EAF4 /* FoodDeliveryUITests.swift */; };
@@ -52,6 +55,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F13ADEC2D4120EF007C9DC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3F13ADEF2D412299007C9DC2 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		3F13ADF12D41241B007C9DC2 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		3F2732B52D2E9DF1006E4BAC /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
 		3F2732B62D2E9DF1006E4BAC /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
 		3F2732B72D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
@@ -67,10 +73,11 @@
 		3F9A51372D3FD20600AC39C1 /* ServiceCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceCall.swift; sourceTree = "<group>"; };
 		3F9A51382D3FD20600AC39C1 /* TabButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		3F9A51392D3FD20600AC39C1 /* UIExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIExtension.swift; sourceTree = "<group>"; };
+		3F9A51462D3FDA8D00AC39C1 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		3FC556642D3920B100AF4B13 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		3FDBE46B2D2D655F00D9EAF4 /* FoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDBE46E2D2D655F00D9EAF4 /* FoodDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryApp.swift; sourceTree = "<group>"; };
-		3FDBE4702D2D655F00D9EAF4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		3FDBE4702D2D655F00D9EAF4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		3FDBE4722D2D656000D9EAF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FDBE4752D2D656000D9EAF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FDBE47B2D2D656000D9EAF4 /* FoodDeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +114,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F13ADEB2D410110007C9DC2 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3FDBE4702D2D655F00D9EAF4 /* WelcomeView.swift */,
+				3FC556642D3920B100AF4B13 /* SignInView.swift */,
+				3F9A51462D3FDA8D00AC39C1 /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3F13ADED2D4121DB007C9DC2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3F13ADF12D41241B007C9DC2 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3F13ADEE2D4121EB007C9DC2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3F13ADEF2D412299007C9DC2 /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		3F2732B82D2E9DF1006E4BAC /* Font */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,9 +192,12 @@
 		3FDBE46D2D2D655F00D9EAF4 /* FoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				3F13ADEE2D4121EB007C9DC2 /* ViewModel */,
+				3F13ADED2D4121DB007C9DC2 /* Model */,
+				3F13ADEC2D4120EF007C9DC2 /* Info.plist */,
 				3FDBE46E2D2D655F00D9EAF4 /* FoodDeliveryApp.swift */,
 				3F9A513A2D3FD20600AC39C1 /* UICommon */,
-				3FF412C82D3152DA002BDDEA /* View:Login */,
+				3FF412C82D3152DA002BDDEA /* View */,
 				3F2732B82D2E9DF1006E4BAC /* Font */,
 				3FDBE4722D2D656000D9EAF4 /* Assets.xcassets */,
 				3FDBE4742D2D656000D9EAF4 /* Preview Content */,
@@ -195,13 +231,12 @@
 			path = FoodDeliveryUITests;
 			sourceTree = "<group>";
 		};
-		3FF412C82D3152DA002BDDEA /* View:Login */ = {
+		3FF412C82D3152DA002BDDEA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				3FDBE4702D2D655F00D9EAF4 /* LoginView.swift */,
-				3FC556642D3920B100AF4B13 /* SignInView.swift */,
+				3F13ADEB2D410110007C9DC2 /* Login */,
 			);
-			path = "View:Login";
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -347,19 +382,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				3FC556652D3920B100AF4B13 /* SignInView.swift in Sources */,
-				3FDBE4712D2D655F00D9EAF4 /* LoginView.swift in Sources */,
+				3FDBE4712D2D655F00D9EAF4 /* WelcomeView.swift in Sources */,
 				3FDBE46F2D2D655F00D9EAF4 /* FoodDeliveryApp.swift in Sources */,
 				3F9A51452D3FD20600AC39C1 /* UIExtension.swift in Sources */,
 				3F9A513E2D3FD20600AC39C1 /* Globs.swift in Sources */,
 				3F9A513C2D3FD20600AC39C1 /* Country.swift in Sources */,
 				3F9A51412D3FD20600AC39C1 /* SearchTextField.swift in Sources */,
 				3F9A513B2D3FD20600AC39C1 /* CategoryCell.swift in Sources */,
+				3F13ADF22D41241B007C9DC2 /* UserModel.swift in Sources */,
+				3F9A51472D3FDA8D00AC39C1 /* LoginView.swift in Sources */,
 				3F9A51402D3FD20600AC39C1 /* ProductCell.swift in Sources */,
 				3F9A513D2D3FD20600AC39C1 /* CountryPickerView.swift in Sources */,
 				3F9A51442D3FD20600AC39C1 /* TabButton.swift in Sources */,
 				3F9A51432D3FD20600AC39C1 /* ServiceCall.swift in Sources */,
 				3F9A51422D3FD20600AC39C1 /* SectionTitleAll.swift in Sources */,
 				3F9A513F2D3FD20600AC39C1 /* LineTextField.swift in Sources */,
+				3F13ADF02D412299007C9DC2 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,6 +563,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FoodDelivery/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodDelivery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -554,6 +593,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FoodDelivery/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodDelivery/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
