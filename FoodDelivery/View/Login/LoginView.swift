@@ -63,7 +63,7 @@ struct LoginView: View {
                 .padding(.bottom, .screenWidth * 0.03)
                 
                 NavigationLink {
-                    SignUpView()
+                    //View()
                 }label :{
                     Text("Log In")
                 }.font(.customfont(.medium, fontSize: 20))
@@ -77,26 +77,54 @@ struct LoginView: View {
                 //Text(" ")
                     .padding(.bottom, 20)
     
-                
-                // SignUp Link
-                NavigationLink {
-                    // SignUpView()
-                } label: {
                     HStack {
                         Text("Don't have an account?")
                             .font(.customfont(.semibold, fontSize: 14))
                             .foregroundColor(.primaryText)
                         
-                        Text("Sign up")
+                        NavigationLink {
+                           SignUpView()
+                        } label:{
+                            Text("Sign up")
                             .font(.customfont(.semibold, fontSize: 14))
                             .foregroundColor(.primaryApp)
-                    }
+                        }
+                    
                 }
                 Spacer()
             }
             .padding(.top, .topInsets + 64)
             .padding(.horizontal, 20)
             .padding(.bottom, .bottomInsets)
+            
+            HStack {
+                Button(action: {
+                    
+                }){
+                    Image("google")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width:40, height: 40)
+                        .background(.white)
+                        .cornerRadius(14)
+                        .padding(.top,600)
+                    
+                    Image("fb_logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width:40, height: 40)
+                        .background(.black)
+                        .cornerRadius(14)
+                        .padding(.top,600)
+                    Image("apple_logo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width:40, height: 40)
+                        .background(.white)
+                        .cornerRadius(14)
+                        .padding(.top,600)
+                }
+            }
             
             // Back Button
             VStack {

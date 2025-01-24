@@ -14,6 +14,7 @@
 		3F2732BA2D2E9DF1006E4BAC /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732B62D2E9DF1006E4BAC /* Gilroy-Regular.ttf */; };
 		3F2732BB2D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732B72D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf */; };
 		3F2732F32D2EB564006E4BAC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732F22D2EB564006E4BAC /* Launch Screen.storyboard */; };
+		3F29F8602D43C5E4008B8873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F29F85F2D43C5E4008B8873 /* Assets.xcassets */; };
 		3F38825D2D31527600AA3707 /* FoodDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE47F2D2D656000D9EAF4 /* FoodDeliveryTests.swift */; };
 		3F43A07E2D4267F1003144AB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A07D2D4267F1003144AB /* SignUpView.swift */; };
 		3F7B977C2D3E7A6600942D4A /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3F7B977B2D3E7A6600942D4A /* iPhoneNumberField */; };
@@ -32,7 +33,6 @@
 		3FC556652D3920B100AF4B13 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC556642D3920B100AF4B13 /* SignInView.swift */; };
 		3FDBE46F2D2D655F00D9EAF4 /* FoodDeliveryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE46E2D2D655F00D9EAF4 /* FoodDeliveryApp.swift */; };
 		3FDBE4712D2D655F00D9EAF4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE4702D2D655F00D9EAF4 /* WelcomeView.swift */; };
-		3FDBE4732D2D656000D9EAF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBE4722D2D656000D9EAF4 /* Assets.xcassets */; };
 		3FDBE4762D2D656000D9EAF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBE4752D2D656000D9EAF4 /* Preview Assets.xcassets */; };
 		3FDBE48A2D2D656000D9EAF4 /* FoodDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE4892D2D656000D9EAF4 /* FoodDeliveryUITests.swift */; };
 		3FDBE48C2D2D656000D9EAF4 /* FoodDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE48B2D2D656000D9EAF4 /* FoodDeliveryUITestsLaunchTests.swift */; };
@@ -63,6 +63,7 @@
 		3F2732B62D2E9DF1006E4BAC /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
 		3F2732B72D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
 		3F2732F22D2EB564006E4BAC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3F29F85F2D43C5E4008B8873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		3F43A07D2D4267F1003144AB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		3F9A512F2D3FD20600AC39C1 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		3F9A51302D3FD20600AC39C1 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
@@ -80,7 +81,6 @@
 		3FDBE46B2D2D655F00D9EAF4 /* FoodDelivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodDelivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDBE46E2D2D655F00D9EAF4 /* FoodDeliveryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryApp.swift; sourceTree = "<group>"; };
 		3FDBE4702D2D655F00D9EAF4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		3FDBE4722D2D656000D9EAF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FDBE4752D2D656000D9EAF4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3FDBE47B2D2D656000D9EAF4 /* FoodDeliveryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDBE47F2D2D656000D9EAF4 /* FoodDeliveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryTests.swift; sourceTree = "<group>"; };
@@ -195,6 +195,7 @@
 		3FDBE46D2D2D655F00D9EAF4 /* FoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
+				3F29F85F2D43C5E4008B8873 /* Assets.xcassets */,
 				3F13ADEE2D4121EB007C9DC2 /* ViewModel */,
 				3F13ADED2D4121DB007C9DC2 /* Model */,
 				3F13ADEC2D4120EF007C9DC2 /* Info.plist */,
@@ -202,7 +203,6 @@
 				3F9A513A2D3FD20600AC39C1 /* UICommon */,
 				3FF412C82D3152DA002BDDEA /* View */,
 				3F2732B82D2E9DF1006E4BAC /* Font */,
-				3FDBE4722D2D656000D9EAF4 /* Assets.xcassets */,
 				3FDBE4742D2D656000D9EAF4 /* Preview Content */,
 				3F2732F22D2EB564006E4BAC /* Launch Screen.storyboard */,
 			);
@@ -357,7 +357,7 @@
 				3F2732F32D2EB564006E4BAC /* Launch Screen.storyboard in Resources */,
 				3F2732B92D2E9DF1006E4BAC /* Gilroy-Bold.ttf in Resources */,
 				3FDBE4762D2D656000D9EAF4 /* Preview Assets.xcassets in Resources */,
-				3FDBE4732D2D656000D9EAF4 /* Assets.xcassets in Resources */,
+				3F29F8602D43C5E4008B8873 /* Assets.xcassets in Resources */,
 				3F2732BB2D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf in Resources */,
 				3F2732BA2D2E9DF1006E4BAC /* Gilroy-Regular.ttf in Resources */,
 			);
