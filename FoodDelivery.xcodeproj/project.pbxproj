@@ -15,6 +15,7 @@
 		3F2732BB2D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732B72D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf */; };
 		3F2732F32D2EB564006E4BAC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732F22D2EB564006E4BAC /* Launch Screen.storyboard */; };
 		3F38825D2D31527600AA3707 /* FoodDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE47F2D2D656000D9EAF4 /* FoodDeliveryTests.swift */; };
+		3F43A07E2D4267F1003144AB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A07D2D4267F1003144AB /* SignUpView.swift */; };
 		3F7B977C2D3E7A6600942D4A /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3F7B977B2D3E7A6600942D4A /* iPhoneNumberField */; };
 		3F9A513B2D3FD20600AC39C1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A512F2D3FD20600AC39C1 /* CategoryCell.swift */; };
 		3F9A513C2D3FD20600AC39C1 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A51302D3FD20600AC39C1 /* Country.swift */; };
@@ -62,6 +63,7 @@
 		3F2732B62D2E9DF1006E4BAC /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
 		3F2732B72D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
 		3F2732F22D2EB564006E4BAC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3F43A07D2D4267F1003144AB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		3F9A512F2D3FD20600AC39C1 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		3F9A51302D3FD20600AC39C1 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		3F9A51312D3FD20600AC39C1 /* CountryPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				3FDBE4702D2D655F00D9EAF4 /* WelcomeView.swift */,
 				3FC556642D3920B100AF4B13 /* SignInView.swift */,
 				3F9A51462D3FDA8D00AC39C1 /* LoginView.swift */,
+				3F43A07D2D4267F1003144AB /* SignUpView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -397,6 +400,7 @@
 				3F9A51432D3FD20600AC39C1 /* ServiceCall.swift in Sources */,
 				3F9A51422D3FD20600AC39C1 /* SectionTitleAll.swift in Sources */,
 				3F9A513F2D3FD20600AC39C1 /* LineTextField.swift in Sources */,
+				3F43A07E2D4267F1003144AB /* SignUpView.swift in Sources */,
 				3F13ADF02D412299007C9DC2 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

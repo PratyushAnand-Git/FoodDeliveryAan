@@ -28,7 +28,7 @@ struct LoginView: View {
                 Image("color_logo")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: min(100, UIScreen.main.bounds.width * 0.3)) // Dynamically scales with screen size
+                    .frame(width:50) //  min(100, UIScreen.main.bounds.width * 0.3)Dynamically scales with screen size
                     .padding(.bottom, .screenWidth * 0.1)
                 
                 Text("Log in")
