@@ -59,28 +59,29 @@ struct SignUpView: View {
                             Text("By continuing you agree to our")
                                 .font(.customfont(.medium, fontSize: 14))
                                 .foregroundColor(.black.opacity(0.9))
-                                .frame(minWidth:0, maxWidth: .infinity, alignment: .leading)
-                                .lineLimit(1)
+                                .frame(minWidth:0, alignment: .leading)
+                                
+                                //.lineLimit(1)
                                 
                             
                             Button{
-                                
+                                //
                             }label: {
                                 Text("Terms of Service")
                                     .font(.customfont(.medium, fontSize: 14))
                                     .foregroundColor(.green.opacity(0.9))
                                     .multilineTextAlignment(.center)
-                                    //.padding(.top, )
                             }
                         }
                         .multilineTextAlignment(.center)
+                        .padding(.leading,-60)
                         
                         HStack{
                             Text("and")
                                 .font(.customfont(.medium, fontSize: 14))
                                 .foregroundColor(.black.opacity(0.9))
-                                .frame(minWidth:0, maxWidth: .infinity, alignment: .leading)
-                                .lineLimit(1)
+                                .frame(minWidth:0, alignment: .leading)
+                                //.lineLimit(1)
                             
                             Button{
                                 
@@ -89,13 +90,15 @@ struct SignUpView: View {
                                     .font(.customfont(.medium, fontSize: 14))
                                     .foregroundColor(.green.opacity(0.9))
                                     //.multilineTextAlignment(.center)
-                                    //.padding(.top, )
+                                    .padding(.trailing, 160 )
+                                    
+                                    //.lineLimit(1)
                             }
                         }
+                        .padding(.leading,-82)
                         
-                        Spacer()
-                        Button{
-                            
+                        NavigationLink {
+                            //HomeScreenView
                         }label:{
                             Text("Sign Up")
                                 .font(.customfont(.medium, fontSize: 20))
@@ -103,21 +106,33 @@ struct SignUpView: View {
                                 .fontWeight(.bold)
                                 .frame(maxWidth: .infinity, maxHeight:70)
                                 .foregroundColor(.white.opacity(0.9))
-                                .background(Capsule().fill(.green))
-                        }
+                                .background(.green)
+                                .cornerRadius(18)
+                                
+                        }.padding(.top, 60)
                             
                                 
                         }
                     }
                     .padding(.horizontal)
+            VStack{
+                HStack{
+                    NavigationLink{
+                        WelcomeView()
+                    } label: {
+                        Image("back")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 20, height: 20)
+                    }
+                    Spacer()
+                }
+                Spacer()
+            }
+            .padding(.top, 60)
+            .padding(.horizontal, 20)
                     
                 }
-                        
-                    //VStack
-                    
-                        
-                    
-                        
                     
                 }
             }

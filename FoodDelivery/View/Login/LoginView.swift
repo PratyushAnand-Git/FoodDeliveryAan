@@ -13,7 +13,7 @@ struct LoginView: View {
     // Use simple @State variables for showcasing the UI
     @State private var txtEmail: String = ""
     @State private var txtPassword: String = ""
-    @State private var isShowPassword: Bool = false
+    @State private var isShowPassword: Bool = false//true
     @State private var showError: Bool = false
     @State private var errorMessage: String = "Invalid email or password."
     
@@ -61,6 +61,22 @@ struct LoginView: View {
                 }
                 .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
                 .padding(.bottom, .screenWidth * 0.03)
+                
+                NavigationLink {
+                    SignUpView()
+                }label :{
+                    Text("Log In")
+                }.font(.customfont(.medium, fontSize: 20))
+                    .padding()
+                    .fontWeight(.bold)
+                    .frame(maxWidth: .infinity, maxHeight:70)
+                    .foregroundColor(.white.opacity(0.9))
+                    .background(.green)
+                .cornerRadius(18)
+                
+                //Text(" ")
+                    .padding(.bottom, 20)
+    
                 
                 // SignUp Link
                 NavigationLink {
