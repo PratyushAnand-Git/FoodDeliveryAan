@@ -62,9 +62,9 @@ struct LoginView: View {
                 .frame(minWidth: 0, maxWidth: .infinity, alignment: .trailing)
                 .padding(.bottom, .screenWidth * 0.03)
                 
-                NavigationLink {
-                    //View()
-                }label :{
+                Button(action:{
+                    showError = true
+                }) {
                     Text("Log In")
                 }.font(.customfont(.medium, fontSize: 20))
                     .padding()
@@ -97,7 +97,7 @@ struct LoginView: View {
             .padding(.horizontal, 20)
             .padding(.bottom, .bottomInsets)
             
-            HStack {
+           /* HStack {
                 Button(action: {
                     
                 }){
@@ -125,7 +125,7 @@ struct LoginView: View {
                         .padding(.top,600)
                 }
             }
-            
+            */
             // Back Button
             VStack {
                 HStack {
