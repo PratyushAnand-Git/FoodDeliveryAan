@@ -14,10 +14,10 @@
 		3F2732BA2D2E9DF1006E4BAC /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732B62D2E9DF1006E4BAC /* Gilroy-Regular.ttf */; };
 		3F2732BB2D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732B72D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf */; };
 		3F2732F32D2EB564006E4BAC /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2732F22D2EB564006E4BAC /* Launch Screen.storyboard */; };
-		3F29F8602D43C5E4008B8873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F29F85F2D43C5E4008B8873 /* Assets.xcassets */; };
 		3F38825D2D31527600AA3707 /* FoodDeliveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE47F2D2D656000D9EAF4 /* FoodDeliveryTests.swift */; };
 		3F43A07E2D4267F1003144AB /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F43A07D2D4267F1003144AB /* SignUpView.swift */; };
 		3F7B977C2D3E7A6600942D4A /* iPhoneNumberField in Frameworks */ = {isa = PBXBuildFile; productRef = 3F7B977B2D3E7A6600942D4A /* iPhoneNumberField */; };
+		3F80C53C2D44C72300610DAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F80C53B2D44C72300610DAC /* Assets.xcassets */; };
 		3F9A513B2D3FD20600AC39C1 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A512F2D3FD20600AC39C1 /* CategoryCell.swift */; };
 		3F9A513C2D3FD20600AC39C1 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A51302D3FD20600AC39C1 /* Country.swift */; };
 		3F9A513D2D3FD20600AC39C1 /* CountryPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9A51312D3FD20600AC39C1 /* CountryPickerView.swift */; };
@@ -63,8 +63,8 @@
 		3F2732B62D2E9DF1006E4BAC /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
 		3F2732B72D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
 		3F2732F22D2EB564006E4BAC /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
-		3F29F85F2D43C5E4008B8873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Assets.xcassets; sourceTree = "<group>"; };
 		3F43A07D2D4267F1003144AB /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		3F80C53B2D44C72300610DAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = FoodDelivery/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		3F9A512F2D3FD20600AC39C1 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		3F9A51302D3FD20600AC39C1 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		3F9A51312D3FD20600AC39C1 /* CountryPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryPickerView.swift; sourceTree = "<group>"; };
@@ -195,7 +195,7 @@
 		3FDBE46D2D2D655F00D9EAF4 /* FoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				3F29F85F2D43C5E4008B8873 /* Assets.xcassets */,
+				3F80C53B2D44C72300610DAC /* Assets.xcassets */,
 				3F13ADEE2D4121EB007C9DC2 /* ViewModel */,
 				3F13ADED2D4121DB007C9DC2 /* Model */,
 				3F13ADEC2D4120EF007C9DC2 /* Info.plist */,
@@ -357,8 +357,8 @@
 				3F2732F32D2EB564006E4BAC /* Launch Screen.storyboard in Resources */,
 				3F2732B92D2E9DF1006E4BAC /* Gilroy-Bold.ttf in Resources */,
 				3FDBE4762D2D656000D9EAF4 /* Preview Assets.xcassets in Resources */,
-				3F29F8602D43C5E4008B8873 /* Assets.xcassets in Resources */,
 				3F2732BB2D2E9DF1006E4BAC /* Gilroy-SemiBold.ttf in Resources */,
+				3F80C53C2D44C72300610DAC /* Assets.xcassets in Resources */,
 				3F2732BA2D2E9DF1006E4BAC /* Gilroy-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

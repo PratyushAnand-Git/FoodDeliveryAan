@@ -13,6 +13,7 @@ struct SignUpView: View {
     @State private var txtUsername: String = ""
     @State private var txtemail: String = ""
     @State private var txtpassword: String = ""
+    @State private var showAlert = false
     
     var body: some View {
         ZStack{
@@ -97,9 +98,9 @@ struct SignUpView: View {
                         }
                         .padding(.leading,-82)
                         
-                        NavigationLink {
-                            //HomeScreenView
-                        }label:{
+                        Button(action: {
+                            showAlert = true
+                        }) {
                             Text("Sign Up")
                                 .font(.customfont(.medium, fontSize: 20))
                                 .padding()
@@ -110,6 +111,10 @@ struct SignUpView: View {
                                 .cornerRadius(18)
                                 
                         }.padding(.top, 60)
+                            .alert(isPresented: $showAlert){
+                                Alert(title: Text("Error"), message: Text("Server not connected"), dismissButton: .default(Text("OK")))
+                            //.padding(.top, 60)
+                            }
                             
                                 
                         }
