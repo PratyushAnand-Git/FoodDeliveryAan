@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,18 +25,6 @@
 		3FDBE4762D2D656000D9EAF4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FDBE4752D2D656000D9EAF4 /* Preview Assets.xcassets */; };
 		3FDBE48A2D2D656000D9EAF4 /* FoodDeliveryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE4892D2D656000D9EAF4 /* FoodDeliveryUITests.swift */; };
 		3FDBE48C2D2D656000D9EAF4 /* FoodDeliveryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FDBE48B2D2D656000D9EAF4 /* FoodDeliveryUITestsLaunchTests.swift */; };
-		3FF049CC2D44F42800A44516 /* ProductCell copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049C02D44F42800A44516 /* ProductCell copy.swift */; };
-		3FF049CD2D44F42800A44516 /* CountryPickerView copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049C12D44F42800A44516 /* CountryPickerView copy.swift */; };
-		3FF049CE2D44F42800A44516 /* Country copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049C22D44F42800A44516 /* Country copy.swift */; };
-		3FF049CF2D44F42800A44516 /* SearchTextField copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049C32D44F42800A44516 /* SearchTextField copy.swift */; };
-		3FF049D02D44F42800A44516 /* CategoryCell copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049C42D44F42800A44516 /* CategoryCell copy.swift */; };
-		3FF049D12D44F42800A44516 /* BackButton copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049C52D44F42800A44516 /* BackButton copy.swift */; };
-		3FF049D22D44F42800A44516 /* TabButton copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049C62D44F42800A44516 /* TabButton copy.swift */; };
-		3FF049D32D44F42800A44516 /* Globs copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049C72D44F42800A44516 /* Globs copy.swift */; };
-		3FF049D42D44F42800A44516 /* ServiceCall copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049C82D44F42800A44516 /* ServiceCall copy.swift */; };
-		3FF049D52D44F42800A44516 /* UIExtension copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049C92D44F42800A44516 /* UIExtension copy.swift */; };
-		3FF049D62D44F42800A44516 /* LineTextField copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049CA2D44F42800A44516 /* LineTextField copy.swift */; };
-		3FF049D72D44F42800A44516 /* SectionTitleAll copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF049CB2D44F42800A44516 /* SectionTitleAll copy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,19 +65,11 @@
 		3FDBE4852D2D656000D9EAF4 /* FoodDeliveryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodDeliveryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FDBE4892D2D656000D9EAF4 /* FoodDeliveryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryUITests.swift; sourceTree = "<group>"; };
 		3FDBE48B2D2D656000D9EAF4 /* FoodDeliveryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDeliveryUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3FF049C02D44F42800A44516 /* ProductCell copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ProductCell copy.swift"; sourceTree = "<group>"; };
-		3FF049C12D44F42800A44516 /* CountryPickerView copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CountryPickerView copy.swift"; sourceTree = "<group>"; };
-		3FF049C22D44F42800A44516 /* Country copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Country copy.swift"; sourceTree = "<group>"; };
-		3FF049C32D44F42800A44516 /* SearchTextField copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchTextField copy.swift"; sourceTree = "<group>"; };
-		3FF049C42D44F42800A44516 /* CategoryCell copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CategoryCell copy.swift"; sourceTree = "<group>"; };
-		3FF049C52D44F42800A44516 /* BackButton copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BackButton copy.swift"; sourceTree = "<group>"; };
-		3FF049C62D44F42800A44516 /* TabButton copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TabButton copy.swift"; sourceTree = "<group>"; };
-		3FF049C72D44F42800A44516 /* Globs copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Globs copy.swift"; sourceTree = "<group>"; };
-		3FF049C82D44F42800A44516 /* ServiceCall copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ServiceCall copy.swift"; sourceTree = "<group>"; };
-		3FF049C92D44F42800A44516 /* UIExtension copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIExtension copy.swift"; sourceTree = "<group>"; };
-		3FF049CA2D44F42800A44516 /* LineTextField copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LineTextField copy.swift"; sourceTree = "<group>"; };
-		3FF049CB2D44F42800A44516 /* SectionTitleAll copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SectionTitleAll copy.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3F62DF302D4E444700C7BC00 /* UI Common */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "UI Common"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3FDBE4682D2D655F00D9EAF4 /* Frameworks */ = {
@@ -178,7 +158,7 @@
 		3FDBE46D2D2D655F00D9EAF4 /* FoodDelivery */ = {
 			isa = PBXGroup;
 			children = (
-				3FF0498E2D44F05B00A44516 /* UICommon */,
+				3F62DF302D4E444700C7BC00 /* UI Common */,
 				3F80C53B2D44C72300610DAC /* Assets.xcassets */,
 				3F13ADEE2D4121EB007C9DC2 /* ViewModel */,
 				3F13ADED2D4121DB007C9DC2 /* Model */,
@@ -217,26 +197,6 @@
 			path = FoodDeliveryUITests;
 			sourceTree = "<group>";
 		};
-		3FF0498E2D44F05B00A44516 /* UICommon */ = {
-			isa = PBXGroup;
-			children = (
-				3FF049CB2D44F42800A44516 /* SectionTitleAll copy.swift */,
-				3FF049CA2D44F42800A44516 /* LineTextField copy.swift */,
-				3FF049C92D44F42800A44516 /* UIExtension copy.swift */,
-				3FF049C82D44F42800A44516 /* ServiceCall copy.swift */,
-				3FF049C72D44F42800A44516 /* Globs copy.swift */,
-				3FF049C62D44F42800A44516 /* TabButton copy.swift */,
-				3FF049C52D44F42800A44516 /* BackButton copy.swift */,
-				3FF049C42D44F42800A44516 /* CategoryCell copy.swift */,
-				3FF049C32D44F42800A44516 /* SearchTextField copy.swift */,
-				3FF049C22D44F42800A44516 /* Country copy.swift */,
-				3FF049C12D44F42800A44516 /* CountryPickerView copy.swift */,
-				3FF049C02D44F42800A44516 /* ProductCell copy.swift */,
-			);
-			name = UICommon;
-			path = ../../UICommon;
-			sourceTree = "<group>";
-		};
 		3FF412C82D3152DA002BDDEA /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +219,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3F62DF302D4E444700C7BC00 /* UI Common */,
 			);
 			name = FoodDelivery;
 			packageProductDependencies = (
@@ -387,24 +350,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FF049CD2D44F42800A44516 /* CountryPickerView copy.swift in Sources */,
-				3FF049D22D44F42800A44516 /* TabButton copy.swift in Sources */,
-				3FF049D72D44F42800A44516 /* SectionTitleAll copy.swift in Sources */,
 				3FC556652D3920B100AF4B13 /* SignInView.swift in Sources */,
 				3FDBE4712D2D655F00D9EAF4 /* WelcomeView.swift in Sources */,
-				3FF049D02D44F42800A44516 /* CategoryCell copy.swift in Sources */,
-				3FF049D62D44F42800A44516 /* LineTextField copy.swift in Sources */,
-				3FF049CF2D44F42800A44516 /* SearchTextField copy.swift in Sources */,
 				3FDBE46F2D2D655F00D9EAF4 /* FoodDeliveryApp.swift in Sources */,
-				3FF049CE2D44F42800A44516 /* Country copy.swift in Sources */,
-				3FF049D12D44F42800A44516 /* BackButton copy.swift in Sources */,
-				3FF049D42D44F42800A44516 /* ServiceCall copy.swift in Sources */,
-				3FF049D32D44F42800A44516 /* Globs copy.swift in Sources */,
 				3F13ADF22D41241B007C9DC2 /* UserModel.swift in Sources */,
 				3F9A51472D3FDA8D00AC39C1 /* LoginView.swift in Sources */,
-				3FF049CC2D44F42800A44516 /* ProductCell copy.swift in Sources */,
 				3F43A07E2D4267F1003144AB /* SignUpView.swift in Sources */,
-				3FF049D52D44F42800A44516 /* UIExtension copy.swift in Sources */,
 				3F13ADF02D412299007C9DC2 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
